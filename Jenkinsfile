@@ -6,7 +6,7 @@ Stages {
   stage('Git hub cloning') {
    steps {
         git branch:'main', changelog:false, poll:false, url:'https://github.com/dhokeakshay/Java-project-1.git'
-	sh 'pwd'
+	 sh 'pwd'
       }
     }
 
